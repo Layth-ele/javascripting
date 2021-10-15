@@ -1,7 +1,12 @@
-// Looping Through Arrays
+/*
+############################################################################
+
+                          <<<<<  Looping Through Arrays >>>>
+############################################################################
+*/
 
 let pets = ["cat", "dog", "rat"];
 for (i = 0; i < pets.length; i++) {
-  pets[i] = pets[i] + "s";
+  pets[i] += "s";
 }
 console.log(pets);

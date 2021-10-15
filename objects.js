@@ -1,13 +1,13 @@
 /*
 ############################################################################
 
-                     <<<<< For Loop >>>>
+                     <<<<<  Objects >>>>
 ############################################################################
 */
-let total = 0;
-let limit = 10;
+const pizza = {
+  toppings: ["cheese", "sauce", "pepperoni"],
+  crust: "deep dish",
+  serves: 2,
+};
 
-for (i = 0; i < limit; i++) {
-  total += i;
-}
-console.log(total);
+console.log(pizza);
